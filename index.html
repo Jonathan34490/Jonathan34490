@@ -1,6 +1,7 @@
 <html>
     <head>
        <link href="CSS/style.css" rel="stylesheet" type="text/css" media="all">
+       <script src="https://kit.fontawesome.com/1fb986e028.js" crossorigin="anonymous"></script>
     </head>
 
     <header>
@@ -26,12 +27,53 @@
 
     <body>
         <div>
-            <h3 id="enTete">Trouver votre hébergement pour des vacances de rêve</h3>
-            En plein centre ville ou en pleinne nature
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form class="searchBar bloc" action="#">
+                <div class="containerMarker bloc">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <input type="search" class="searchInput" placeholder="Marseille, France">
+                <button class="searchButton">
+                    <span>Rechercher</span>
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
 
+            <div class="filters box">
+                <div class="textFilter">Filtres</div>
+                <div class="filterList box">
+
+                    <div class="filter box">
+                        <div class="iconFilter box">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <span>Économique</span>
+                    </div>
+                    
+                    <div class="filter box">
+                        <div class="iconFilter flex">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        <span>Familial</span>
+                    </div>
+                    
+                    <div class="filter box">
+                        <div class="iconFilter flex">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <span>Romantique</span>
+                    </div>
+
+                    <div class="filter box">
+                        <div class="iconFilter flex">
+                            <i class="fas fa-dog"></i>
+                        </div>
+                        <span>Animaux autorisés</span>
+                    </div>
+
+                </div>
+            </div>
 
 
 
