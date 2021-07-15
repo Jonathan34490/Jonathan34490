@@ -1,0 +1,48 @@
+
+/*
+.  <-- CLASS   (pour plusieur objet qui on les meme propriété)
+#  <-- ID   (un objet unique qui a ces propre proriété)
+
+*/
+
+
+.box {
+    display: flex;
+    align-items: center;
+}
+.center {
+    justify-content: center;
+}
+.between {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.menu a {
+    color: #0065FC;
+    
+}
+a {
+    text-decoration:none; 
+}
+#logo{
+    width: 100px;
+}
+
+#page-active{
+    border-top: solid #0065FC;
+    padding-top: 25px;
+}
+#page-non-active{
+    color:#727272;
+}
+.espace{
+    margin: 25px;
+}
+.footer{
+    background-color: #F2F2F2;
+}
+#enTete{
+    margin-bottom: 3px;
+}
